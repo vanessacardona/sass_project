@@ -1,0 +1,11 @@
+@import 'header';
+
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: repeat(32, 1fr)
+    grid-template-columns: repeat(9, 1fr);
+}
+
