@@ -51,3 +51,14 @@ td {
     border-bottom: 1px solid #D8D8D8;
 }
 
+.pic-description {
+    max-width: 1109px;
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.gallery {
+    display: flex;
+    gap: 30px;
+}
