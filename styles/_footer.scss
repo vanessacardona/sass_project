@@ -1,6 +1,6 @@
 @import 'fonts';
 
-.nav_bar {
+.footer-bar {
     height: 23px;
     max-width: 1109px;
     width: 100%;
@@ -10,12 +10,14 @@
     align-items: center;
     
 
- .nav_list {
+ .footer-list {
+        max-width: 900px;
         width: 100%;
         display: flex;
         align-items: center;
         line-height: 2;
         gap: 20px;
+        justify-content: flex-end;
         
     }
 
@@ -25,16 +27,13 @@
         font-weight: 700;
         font-size: 18px;
     }
-}
 
-li:hover {
-  background-color: white;
-  color: $blue-text;
-  cursor: pointer;
-  
-}
+    .icons-list {
+        display: flex;
+        gap: 60px;
+    }
 
-.logo-svg:hover {
-    fill: $blue-text;
-    cursor: pointer;
-  }
+    .icons {
+        align-self: center;
+    }
+}

@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Genesis</title>
 </head>
 <body>
     <header class="nav_bar">
-        <div class="logo"><a href="index.html"></a> Genesis</div>
-        <div class="nav_list">
-            <ul>
-                <li><a href="details.html"></a>Projects</li>
-                <li><a href="contact.html"></a>Contact</li>
+        <div><a href="index.html"></a><img class="logo-svg" src="images/Logo.svg" alt="logo"></div>
+        <div>
+            <ul class="nav_list">
+                <li class="project-details"><a href="project-details.html"></a>Projects</li>
+                <li class="contact"><a href="contact.html"></a>Contact</li>
             </ul>
         </div>
     </header>
@@ -25,12 +28,12 @@
                <strong>product designer</strong> with experience
                 in studios and startups</p>
         </div>
-        <div class="quote">
-            <img src="ractangle" alt="stroke">
-            <p>Design is about progress</p> 
+        <div class="intro-quote">
+            <img src="images/Rectangle.svg" alt="stroke">
+            <p class="quote">Design is about progress</p> 
         </div>
     </section>
-    <section class="grid">
+    <section class="grid-one">
         <div class="img_one"><img src="images/img-one.png" alt="a surrealistic statue"></div>
         <div class="img_two"><img src="images/img-two.png" alt="a man with a blue baloon sitting on cacti"></div>
         <div class="img_three"><img src="images/img-three.png" alt="a person on top of a head with scarf"></div>
@@ -50,54 +53,61 @@
                  our service list and view details</p>
         </div>
         <div>
-            <ul>
+            <ul class="service_one">
                 <li>Multimedia</li>
                 <li>Interactive Design</li>
                 <li>Branding</li>
             </ul>
         </div>
         <div>
-            <ul>
+            <ul class="service_two">
                 <li>Creative designe</li>
                 <li>Packaging</li>
                 <li>Coding</li>
             </ul>
         </div>
     </section>
-    </hr>
+    <img class="divider_first" src="images/divider.svg" alt="dividing line">
     <section class="homepage_grid">
         <div class="awards"><p>Awwwards</p></div>
-        <div class="Siteoftheday_one"><p>Site of the day</p></div>
-        <div class="Siteoftheday_two"><p>Site of the day</p></div>
-        <div class="genesiskit_one"><p>Genesis UI Kit</p></div>
-        <div class="genesiskit_two"><p>Genesis UI Kit</p></div>
-        <div class="year_one"><p>2018</p></div>  
+        <div class="siteoftheday_one"><p>Site of the day</p></div>
+        <div class="siteoftheday_two"><p>Site of the day</p></div>
+        <div class="genesiskit_one">
+            <p>Genesis UI Kit</p>
+            <p class="application">Application that helps to find nearest sport centers</p>
+        </div>
+        <div class="genesiskit_two">
+            <p>Genesis UI Kit</p>
+            <p class="application">Application that helps to find nearest sport centers</p>
+        </div>
         <div class="bestnav_one"><p>Best navigation</p></div>
-        <div class="template_one"><p>Genesis Template</p></div>
-        <div class="template_two"><p>Genesis Template</p></div>
-        <div class="application"><p>Aplication that helps to find nearest sport centers</p></div>
-        <div class="application"><p>Aplication that helps to find nearest sport centers</p></div>
-        <div class="application"><p>Aplication that helps to find nearest sport centers</p></div>
-        <div class="application"><p>Aplication that helps to find nearest sport centers</p></div>
         <div class="bestnav_two"><p>Best navigation</p></div>
-        <div class="year_two"><p>2018</p></div>
-        <div class="year_three"><p>2017</p></div>
-        <div class="year_four"><p>2016</p></div>
+        <div class="template_one">
+            <p>Genesis Template</p>
+            <p class="application">Application that helps to find nearest sport centers</p>
+        </div>
+        <div class="template_two">
+            <p>Genesis Template</p>
+            <p class="application">Application that helps to find nearest sport centers</p>
+        </div>
+        <div class="year_first"><p>2018</p></div>  
+        <div class="year_second"><p>2018</p></div>
+        <div class="year_third"><p>2017</p></div>
+        <div class="year_fourth"><p>2016</p></div>
         <div class="cssdesign"><p>CSSDesignAwards</p></div>
     </section>
-    <footer>
-        <div class="logo"><svg> 
-            <use xlink:href="images/logo.svg#logo"></use></svg><a href="index.html"></a>
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a href="details.html"></a>Projects</li>
+    <img class="divider_second" src="images/divider.svg" alt="dividing line">
+    <footer class="footer-bar">
+        <div><a href="index.html"></a><img class="logo-svg" src="images/Logo.svg" alt="logo"></div>
+        <div class="icons-list">
+            <ul class="footer-list">
+                <li><a href="project-details.html"></a>Projects</li>
                 <li><a href="contact.html"></a>Contact</li>
             </ul>
-        </div>
-        <div class="icons">
-            <img src="" alt="">
-        </div>
+            <div class="icons">
+                <img src="images/social.svg" alt="social media icons">
+            </div>
+        </div>    
     </footer>
 </body>
 </html>

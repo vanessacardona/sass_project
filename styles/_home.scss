@@ -1,0 +1,267 @@
+@import 'fonts';
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 96px;
+
+
+    h1 {
+        color: $blue-text;
+        font-family: $main-font;
+        font-size: 22px;
+    }
+
+    strong {
+        color: $blue-text;
+    }
+
+    .intro-quote {
+        margin-top: 20px;
+    }
+
+    p {
+        max-width: 500px;
+        width: 100%;
+        height: 251px;
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: $bold-font;
+        align-self: baseline;
+        line-height: 60px;
+    }
+
+    .quote {
+        font-family: $main-font;
+        font-weight: $light-font-weight;
+        font-style: italic;
+        font-size: 18px;
+        opacity: $opacity;
+        width: 207px;
+        height: 23px;;
+        line-height: 22.59px;
+        margin: 0;
+    }
+}
+
+.grid-one {
+    display: grid;
+    max-width: 1110px;
+    width: 100%;
+    height: 1960px;
+    grid-template-rows: repeat(32, 1fr);
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+
+.img {
+    &_one {
+        grid-area: 1 / 1 / 4 / 8;
+    }
+
+    &_two {
+        grid-area: 8 / 1 / 16 / 4;
+    }
+
+    &_three {
+        grid-area: 16 / 1 / 24 / 4;
+    }
+
+    &_four {
+        grid-area: 24 / 1 / 33 / 4;
+    }
+
+    &_five {
+        grid-area: 1 / 4 / 7 / 7;
+    }
+
+    &_six {
+        grid-area: 7 / 4 / 14 / 7;
+    }
+
+    &_seven {
+        grid-area: 14 / 4 / 23 / 7;
+    }
+
+    &_eight {
+        grid-area: 23 / 4 / 33 / 7;
+    }
+
+    &_nine {
+        grid-area: 1 / 7 / 11 / 10;
+    }
+
+    &_ten {
+        grid-area: 11 / 7 / 18 / 10;
+    }
+
+    &_eleven {
+        grid-area: 18 / 7 / 27 / 10;
+    }
+
+    &_twelve {
+        grid-area: 27 / 7 / 33 / 10;
+    }
+}
+
+//section after the first grid 
+
+.group { 
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    height: 106px;
+    align-items: baseline;
+    margin-top: 91px;
+
+        .paragraph {
+            width: 635px;
+            height: 106px;
+            font-family: $main-font;
+            font-size: $bold-font;
+            font-weight: 700;
+            font-size: 28px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: $light-font-weight;
+            font-family: $main-font;
+            font-size: 18px;
+            opacity: $opacity;
+        }
+        .service {
+            width: 150px;
+        }
+
+}
+
+.homepage_grid {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 50px;
+}
+
+.awards {
+    grid-area: 1 / 1 / 2 / 5;
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.cssdesign {
+    grid-area: 5 / 1 / 6 / 3;
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.siteoftheday_one {
+    grid-area: 1 / 5 / 2 / 7;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.siteoftheday_two {
+    grid-area: 5 / 5 / 6 / 7;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.genesiskit_one {
+    grid-area: 1 / 7 / 2 / 10;
+    font-family: $main-font;
+    font-weight: $light-font-weight;
+    size: 16px; 
+}
+
+.genesiskit_two {
+    grid-area: 5 / 7 / 6 / 10;
+    font-family: $main-font;
+    font-weight: $light-font-weight;
+    size: 16px;
+}
+
+.year {
+    &_first {
+        grid-area: 1 / 10 / 2 / 11;
+        font-family: $main-font;
+        font-weight: $light-font-weight;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    &_second {
+        grid-area: 3 / 10 / 4 / 11;
+        font-family: $main-font;
+        font-weight: $light-font-weight;
+        font-size: 16px;
+        text-align: right;
+
+    }
+
+    &_third {
+        grid-area: 5 / 10 / 6 / 11;
+        font-family: $main-font;
+        font-weight: $light-font-weight;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    &_fourth {
+        grid-area: 7 / 10 / 8 / 11;
+        font-family: $main-font;
+        font-weight: $light-font-weight;
+        font-size: 16px;
+        text-align: right;
+    }
+}
+.bestnav_one {
+    grid-area: 3 / 5 / 5 / 7;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bestnav_two {
+    grid-area: 7 / 5 / 8 / 7;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.template_one {
+    grid-area: 3 / 7 / 5 / 10;
+    font-family: $main-font;
+    font-weight: $light-font-weight;
+    size: 16px;
+}
+
+.template_two { 
+    grid-area: 7 / 7 / 8 / 10;
+    font-family: $main-font;
+    font-weight: $light-font-weight;
+    size: 16px;
+}
+
+.application {
+    font-family: $main-font;
+    font-weight: $light-font-weight;
+    font-size: 16px;
+    opacity: $opacity;
+
+}
+
+.divider_first {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.divider_second {
+        margin-bottom: 100px;
+}

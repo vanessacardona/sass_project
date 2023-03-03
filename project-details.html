@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Genesis</title>
 </head>
 <body>
-    <header class="nav-bar">
-        <div class="logo"><a href="index.html"></a> Genesis</div>
-        <div class="nav-list">
-            <ul>
-                <li><a href="details.html"></a>Projects</li>
-                <li><a href="contact.html"></a>Contact</li>
+    <header class="nav_bar">
+        <div><a href="index.html"></a><img class="logo-svg" src="images/Logo.svg" alt="logo"></div>
+        <div>
+            <ul class="nav_list">
+                <li class="project-details"><a href="project-details.html"></a>Projects</li>
+                <li class="contact"><a href="contact.html"></a>Contact</li>
             </ul>
         </div>
+    </header>
     </header>
     <div class="heading">
         <div class="heading_title">
@@ -29,36 +33,37 @@
                 making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, 
                 combined with a handful of model sentence structures.</p>
         </div>
-        <div class="heading_table">
-            <table>
-                <tr>
-                    <td>Project</td>
+        <div>
+            <table class="heading_table">
+                <tr">
+                    <td class="table-title">Project</td>
                     <td>Genesis Portfolio</td>
                 </tr>
                 <tr>
-                    <td>Design</td>
+                    <td class="table-title">Design</td>
                     <td>Bakhtiyar Sattarov</td>
                 </tr>
                 <tr>
-                    <td>Client</td>
+                    <td class="table-title">Client</td>
                     <td>Crarftwork</td>
                 </tr>
                 <tr>
-                    <td>Deliverable</td>
+                    <td class="table-title">Deliverable</td>
                     <td>Website Design</td>
                 </tr>
                 <tr>
-                    <td>Year</td>
+                    <td class="table-title">Year</td>
                     <td>2018</td>
                 </tr>
                 <tr>
-                    <td>Field</td>
+                    <td class="table-title">Field</td>
                     <td>Branding, Personal</td>
                 </tr>
             </table>
         </div>
+    </div>
     <section class="fullscreen">
-        <img src="images/img-seven.png" alt="woman crossing lines">
+        <img class="img-woman" src="images/img-woman.png" alt="woman crossing lines">
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
             by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, 
             You need to be sure there isn't anything embarrassing hidden in the middle of text. You need to be sure there isn't anything embarrassing 
@@ -69,19 +74,17 @@
         <img src="images/img-thirteen.png" alt="a vase with flowers">
         <img src="images/img-fourteen.png" alt="a blue doorway">
     </section>
-    <footer>
-        <div class="logo"><svg> 
-            <use xlink:href="images/logo.svg#logo"></use></svg><a href="index.html"></a>
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a href="details.html"></a>Projects</li>
+    <footer class="footer-bar">
+        <div class="logo"><a href="index.html"></a><img src="images/Logo.svg" alt="logo"></div>
+        <div class="icons-list">
+            <ul class="footer-list">
+                <li><a href="project-details.html"></a>Projects</li>
                 <li><a href="contact.html"></a>Contact</li>
             </ul>
-        </div>
-        <div class="icons">
-            <img src="images/Social.svg" alt="social media icons">
-        </div>
+            <div class="icons">
+                <img src="images/social.svg" alt="social media icons">
+            </div>
+        </div>    
     </footer>
 </body>
 </html>
