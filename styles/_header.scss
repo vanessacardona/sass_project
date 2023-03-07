@@ -27,11 +27,25 @@
     }
 }
 
-li:hover {
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
   background-color: white;
   color: $blue-text;
   cursor: pointer;
+  font-size: 150%;
   
+}
+
+a:active {
+  color: darkcyan;
 }
 
 .logo-svg:hover {

@@ -147,113 +147,90 @@
     margin-top: 50px;
 }
 
-.awards {
-    grid-area: 1 / 1 / 2 / 5;
+.bold-element {
     font-family: $main-font;
     font-weight: 700;
+}
+
+.large-text {
+    font-size: 22px;
+}
+
+.medium-text {
+    font-size: 18px;
+}
+
+.awards {
+    grid-area: 1 / 1 / 2 / 5;
 }
 
 .cssdesign {
     grid-area: 5 / 1 / 6 / 3;
-    font-family: $main-font;
-    font-weight: 700;
 }
 
 .siteoftheday_one {
     grid-area: 1 / 5 / 2 / 7;
-    font-family: $main-font;
-    font-weight: 700;
-    font-size: 18px;
 }
 
 .siteoftheday_two {
     grid-area: 5 / 5 / 6 / 7;
-    font-family: $main-font;
-    font-weight: 700;
-    font-size: 18px;
 }
 
-.genesiskit_one {
-    grid-area: 1 / 7 / 2 / 10;
+.thin-element {
     font-family: $main-font;
     font-weight: $light-font-weight;
     size: 16px; 
 }
 
+.genesiskit_one {
+    grid-area: 1 / 7 / 2 / 10;
+}
+
 .genesiskit_two {
     grid-area: 5 / 7 / 6 / 10;
-    font-family: $main-font;
-    font-weight: $light-font-weight;
-    size: 16px;
 }
 
 .year {
     &_first {
         grid-area: 1 / 10 / 2 / 11;
-        font-family: $main-font;
-        font-weight: $light-font-weight;
-        font-size: 16px;
         text-align: right;
     }
 
     &_second {
         grid-area: 3 / 10 / 4 / 11;
-        font-family: $main-font;
-        font-weight: $light-font-weight;
-        font-size: 16px;
         text-align: right;
 
     }
 
     &_third {
         grid-area: 5 / 10 / 6 / 11;
-        font-family: $main-font;
-        font-weight: $light-font-weight;
-        font-size: 16px;
         text-align: right;
     }
 
     &_fourth {
         grid-area: 7 / 10 / 8 / 11;
-        font-family: $main-font;
-        font-weight: $light-font-weight;
-        font-size: 16px;
         text-align: right;
     }
 }
 .bestnav_one {
     grid-area: 3 / 5 / 5 / 7;
-    font-family: $main-font;
-    font-weight: 700;
-    font-size: 18px;
 }
 
 .bestnav_two {
     grid-area: 7 / 5 / 8 / 7;
-    font-family: $main-font;
-    font-weight: 700;
-    font-size: 18px;
 }
 
 .template_one {
     grid-area: 3 / 7 / 5 / 10;
-    font-family: $main-font;
-    font-weight: $light-font-weight;
-    size: 16px;
 }
 
 .template_two { 
     grid-area: 7 / 7 / 8 / 10;
-    font-family: $main-font;
-    font-weight: $light-font-weight;
-    size: 16px;
 }
 
 .application {
-    font-family: $main-font;
-    font-weight: $light-font-weight;
-    font-size: 16px;
     opacity: $opacity;
+    width: 190px;
 
 }
 
@@ -263,5 +240,6 @@
 }
 
 .divider_second {
+    margin-top: 50px;
         margin-bottom: 100px;
 }
