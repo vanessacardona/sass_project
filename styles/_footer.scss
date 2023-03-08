@@ -35,6 +35,15 @@
     }
 
     .icons {
+        display: flex;
         align-self: center;
+        gap: 20px;
     }
+
+    i:hover {
+        color: $blue-text;
+        cursor: pointer;
+    }
+
 }
+
